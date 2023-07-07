@@ -1,0 +1,52 @@
+2023/06/24 11:20:39 b.go:82: ==> 
+2023/06/24 11:20:39 b.go:91: End app
+2023/06/26 21:23:28 books.go:28: cannot find field Id in returned row
+2023/06/26 21:25:01 books.go:28: cannot find field Id in returned row
+2023/06/26 21:36:02 books.go:28: can't scan into dest[4]: cannot scan date (OID 1082) in binary format into *string
+2023/06/26 21:46:26 books.go:29: can't scan into dest[6]: cannot scan NULL into *string
+2023/06/27 11:26:51 b.go:102: Err => ERROR: column "book_naame" does not exist (SQLSTATE 42703)
+2023/06/27 11:27:05 b.go:102: Err => ERROR: column "book_naame" does not exist (SQLSTATE 42703)
+2023/06/27 11:27:27 b.go:102: Err => ERROR: column "book_naame" does not exist (SQLSTATE 42703)
+2023/06/27 22:52:34 books.go:30: cannot find field Fzip in returned row
+2023/06/29 03:07:34 books.go:80: 2: expected 0 arguments, got 1
+2023/06/29 03:07:40 books.go:80: 2: expected 0 arguments, got 1
+2023/06/29 03:07:48 books.go:80: 2: expected 0 arguments, got 1
+2023/06/30 00:08:50 import.go:248: exit status 9
+2023/06/30 00:11:39 import.go:249: exit status 9
+2023/06/30 14:02:17 import.go:238: Нет файла /media/n9/books-t/f.fb2-634745-637734.zip stat /media/n9/books-t/f.fb2-634745-637734.zip: no such file or directory
+2023/06/30 14:30:47 import.go:238: Нет файла stat /media/n9/books-t/f.fb2-650566-655205.zip: no such file or directory
+2023/06/30 14:32:45 import.go:238: Нет файла stat /media/n9/books-t/f.fb2-534920-537169.zip: no such file or directory
+2023/06/30 14:36:44 import.go:238: Нет файла stat /media/n9/books-t/f.fb2-534920-537169.zip: no such file or directory
+2023/06/30 18:48:12 import.go:238: Нет файла stat /media/n9/books-t/f.fb2-462297-464694.zip: no such file or directory
+2023/06/30 21:28:01 import.go:238: Нет файла stat /media/n9/books-t/fb2-091841-104214.zip: no such file or directory
+2023/06/30 22:13:46 import.go:238: Нет файла stat /media/n9/books-t/f.fb2-534920-537169.zip: no such file or directory
+2023/06/30 22:15:31 import.go:238: Нет файла stat /media/n9/books-t/f.fb2-228906-233099.zip: no such file or directory
+2023/06/30 22:16:56 import.go:238: Нет файла stat /media/n9/books-t/f.fb2-650566-655205.zip: no such file or directory
+2023/06/30 22:17:04 import.go:238: Нет файла stat /media/n9/books-t/fb2-030560-060423.zip: no such file or directory
+2023/07/01 00:55:25 import.go:238: Нет файла stat /media/n9/books-t/f.fb2-534920-537169.zip: no such file or directory
+2023/07/01 01:48:07 import.go:238: Нет файла stat /media/n9/books-t/fb2-091841-104214.zip: no such file or directory
+2023/07/01 01:48:27 import.go:254: unzip /media/n9/books-t/d.fb2-009373-367300.zip 110119.fb2 -d /media/n9/books-t/books
+2023/07/01 01:48:27 import.go:255: exit status 1
+2023/07/01 01:49:47 import.go:254: unzip /media/n9/books-t/d.fb2-009373-367300.zip 110119.fb2 -d /media/n9/books-t/books
+2023/07/01 01:49:47 import.go:255: exit status 1
+2023/07/02 04:15:42 import.go:43: ERROR: relation "fzip" does not exist (SQLSTATE 42P01)
+2023/07/02 04:18:35 import.go:135: ERROR: INSERT has more target columns than expressions (SQLSTATE 42601)
+2023/07/03 19:28:03 import.go:185: unzip /media/n9/books-t/d.fb2-009373-367300.zip 110119.fb2 -d /media/n9/books-t/books
+2023/07/03 19:28:03 import.go:186: exit status 1
+2023/07/03 19:29:38 import.go:167: Нет файла stat /media/n9/books-t/f.fb2-368729-372448.zip: no such file or directory
+2023/07/03 19:29:44 import.go:185: unzip /media/n9/books-t/d.fb2-009373-367300.zip 110119.fb2 -d /media/n9/books-t/books
+2023/07/03 19:29:44 import.go:186: exit status 1
+2023/07/03 23:48:28 ini.go:88: strconv.Atoi: parsing "": invalid syntax
+2023/07/04 04:26:47 import.go:184: unzip /media/n9/books-t/d.fb2-009373-367300.zip 110119.fb2 -d /media/n9/books-t/books
+2023/07/04 04:26:47 import.go:185: exit status 1
+2023/07/04 04:30:51 import.go:184: unzip /media/n9/books-t/d.fb2-009373-367300.zip 110119.fb2 -d /media/n9/books-t/books
+2023/07/04 04:30:51 import.go:185: exit status 1
+2023/07/04 06:03:39 import.go:166: Нет файла stat /media/n9/books-t/f.fb2-368729-372448.zip: no such file or directory
+2023/07/04 06:03:47 import.go:166: Нет файла stat /media/n9/books-t/fb2-000024-030559.zip: no such file or directory
+2023/07/04 06:04:39 import.go:166: Нет файла stat /media/n9/books-t/fb2-161831-166042.zip: no such file or directory
+2023/07/04 06:04:55 import.go:166: Нет файла stat /media/n9/books-t/fb2-161831-166042.zip: no such file or directory
+2023/07/04 06:17:56 import.go:166: Нет файла stat /media/n9/books-t/fb2-000024-030559.zip: no such file or directory
+2023/07/04 06:18:38 import.go:166: Нет файла stat /media/n9/books-t/fb2-161831-166042.zip: no such file or directory
+2023/07/04 06:18:42 import.go:166: Нет файла stat /media/n9/books-t/fb2-161831-166042.zip: no such file or directory
+2023/07/04 06:19:30 import.go:166: Нет файла stat /media/n9/books-t/fb2-000024-030559.zip: no such file or directory
+2023/07/04 06:52:42 import.go:166: Нет файла stat /media/n9/books-t/fb2-000024-030559.zip: no such file or directory

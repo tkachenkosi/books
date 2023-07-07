@@ -1,0 +1,46 @@
+/*button::-moz-focus-inner, input[type="button"]::-moz-focus-inner {
+    border: none;
+}*/
+
+.btn {
+  /* Green #9cbae0 #739dd2 #4980c5 #3465a4 */ 
+  /*background-color: #4CAF50; */
+  border: none;
+  color: white;
+  padding: 0.3em 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9rem;
+  margin: 4px 2px;
+  /*cursor: pointer;*/
+  border-radius: 4px;
+  min-width: 4em;
+  outline: none;
+}
+
+.btn1:hover {
+/* #008cba 0078b2 */
+/* f3f3f3 f0f0f0 #dbdbdb b6b6b6 929292 6d6d6d 494949 серый цвет */
+/* #ccc #999 #666 #333 серый цвет */
+/* https://colorscheme.ru/web-safe-colors.html безапастные цвета */
+
+  background-color: #3e8e41;
+}
+.btn2:hover {background-color: #0078b2;}
+.btn3:hover {background-color: #d74336;}
+.btn4:hover {background-color: #dbdbdb;}
+.btn5:hover {background-color: #555555;}
+
+.btn1:active {padding-left:1.1em;padding-right:0.9em}
+.btn2:active {padding-left:1.1em;padding-right:0.9em}
+.btn3:active {padding-left:1.1em;padding-right:0.9em}
+.btn4:active {padding-left:1.1em;padding-right:0.9em}
+.btn5:active {padding-left:1.1em;padding-right:0.9em}
+
+.btn1 {background-color: #4CAF50;} /* Green */
+.btn2 {background-color: #008CBA;} /* Blue */
+.btn3 {background-color: #f44336;} /* Red */ 
+.btn4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.btn5 {background-color: #6d6d6d;} /* Black */
+

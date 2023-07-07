@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Поиск книг</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/my.js" defer></script>
+    </head>
+    <body>
+      <div class="container">
+         <div class="cont1">
+           <div class="title1">Поиск книг по базе флибуста от 2023.04</div>
+           <div class="title2">{{title}}. Лимит 500 записей. Кол.книг в поиске: <strong><span id=len_result></span></strong></div>
+           <div class="title2"><span id=history_result></span></div>
+         </div> 
+
+         <div class="cont2">
+           <div class="field1">
+             <!-- <div class="colum1">
+                <label for="foundAvtor">По автору:</label>
+             </div> -->
+             <div class="colum1">
+                <input type="text" id="foundAvtor" name="foundAvtor" value="" maxlength="100" placeholder="автор книги" tabindex="1">
+             </div>
+             <div class="colum2">
+               <a id="btnClearAvtor" href="#">X</a>
+             </div>
+             <div class="colum2_1">
+               <a id="btnMoveAvtor" href="#">&uArr;</a>
+             </div>
+             <div class="colum3">
+                <button type="button" id="btnFoundAvtor" class="btn0" tabindex="3">Поиск</button>
+             </div>
+           </div>
+           <div class="field2">
+             <!-- <div class="colum1">
+                <label for="foundTitle">По названию:</label>
+             </div> -->
+             <div class="colum1">
+                <input type="text" id="foundTitle" name="foundTitle" value="" maxlength="100" placeholder="название книги" tabindex="2">
+             </div>
+             <div class="colum2">
+               <a id="btnClearTitle" href="#">X</a>
+             </div>
+             <div class="colum2_1">
+               <!-- <a id="btnMoveTitle" href="#">&dArr;</a> -->
+               <a id="btnMoveTitle" href="#">H</a>
+             </div>
+             <div class="colum3">
+                <button type="button" id="btnFoundTitle" class="btn0" tabindex="4">Поиск</button>
+             </div>
+           </div>
+         </div> 
+
+         <div class="result">
+        </div>
+
+    </body>
+</html>

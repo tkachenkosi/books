@@ -1,0 +1,41 @@
+/* настройки для татлиц */
+/* стиль таблиц   cellpadding="4" cellspacing="1"*/
+
+.mytab {
+    border-spacing:0px;
+}
+.mytab th {
+    border-bottom: 2px solid #6678b1;
+
+}
+.mytab tr {
+    border-bottom: 1px solid #6678b1;
+}
+.mytab td {
+    padding: 3px 8px;
+    border-bottom: 1px solid #6678b1;
+    /* border-left: 1px solid #6678b1; */
+    border-left: 1px solid #bbdefb;
+
+}
+.mytab tr:hover td {
+    background-color:#b2dfdb;
+           /* #6699ff; */
+}
+/* кнопки для таблици */
+.mybtn {
+    /* background: #fff; */
+    border: #d7ccc8 solid 1px;
+    border-radius: 3px;
+    /* cursor: pointer; */
+    display: inline-block;
+    font-size: 1rem;
+    /* padding: 8px 15px; */
+    text-decoration: none;
+    text-align: center;
+    /* min-width: 60px; */
+    position: relative;
+}
+.mybtn:hover {
+    background: #f2f2f2;
+}
